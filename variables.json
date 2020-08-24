@@ -1,0 +1,26 @@
+{     
+    "availability_zone_names": ["eu-west-2a"],
+    "cidr": "10.0.0.0/16",
+    "f5_ami_search_name": "F5*BIGIP-15.1.0.4*Better*25Mbps*",
+    "f5_user": "admin",
+    "libs_dir": "/config/cloud/aws/node_modules",
+    "onboard_log": "/var/log/startup-script.log",
+    "prefix": "arch-hashi-f5-demo",
+    "private_subnets": {
+        "total_ip_count": 7,
+        "ip_start": 11,
+        "max_ip_count_per_subnet": 4
+    }, 
+    "public_subnets": {
+        "total_ip_count": 7,
+        "ip_start": 11,
+        "max_ip_count_per_subnet": 3
+    },  
+    "slack": "TQJGFGSVD/BR2D7AN06/2Bsc8hKCUlokflbqPDiKAzLP",
+    "tags": {
+        "uk-se": "arch",
+        "automated": "terraform"
+    },
+    "user": "admin"
+}
+  
